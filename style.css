@@ -1,0 +1,116 @@
+body{
+	margin:0px;
+	background:#E5E5E5;
+}
+
+article {
+
+	display:flex;
+	flex-direction:column;
+	flex: 0 0 45%;
+	max-width:45%;
+	height: 300px;
+	justify-content:center;
+	margin: 0 auto;
+	margin-top:30px;
+	background: url(https://avatars.mds.yandex.net/get-zen_doc/51081/pub_5bc2863a35b68100aa415158_5bc28866d0d8c800ab16a007/scale_1200);
+	background-size: cover;/* заполенине по размеру блока*/
+    background-repeat: no-repeat;/* заполенине по размеру блока*/
+}	
+
+
+article form {
+	display: flex;
+	flex-direction:column;
+	padding:10px;
+}
+.box
+{
+	background-image: none;
+	background-color: #FFFFFF;
+	margin-top: 0;
+	height: 600px;
+}
+.string{
+	display:flex; 
+	flex-flow:wrap;
+	justify-content:space-between;
+	align-self: center;
+	width:96%;
+	color: white;
+	padding-top:10px;
+	margin-left: 90px;
+	z-index: 1;
+}
+.name
+{
+	font-size: 20px;
+}
+.span_form{
+	margin:3px;
+}
+.name
+{
+	margin-left: 10px;
+	margin-bottom: 10px;
+	color: #778C9C;
+}
+.button{
+	margin-top:10px;
+	margin-bottom:10px;
+	background:#4F6BAF;
+	padding-top:10px;
+	width: 100px;
+	height: 50px;
+	opacity:1;
+	margin-left: 10px;
+	font-size:1.2em;
+	color: white;
+	box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+.block1
+{
+	display: flex;
+	flex-direction: column;
+	margin: 20px;
+	justify-content: flex-start;
+}
+.block2
+{
+	display: flex;
+	flex-direction: column;
+	margin: 20px;
+	justify-content: center;
+}
+.in{
+	height: 35px;
+	margin: 10px;
+	width: 200px;
+	margin-top: -5px;
+}
+.comments
+{
+	height: 100px;
+	width: 400px;
+	margin: 10px;
+	margin-top: -5px;
+}
+.one { 
+	display: flex;
+	flex-direction: row;
+	max-height: 400px;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	margin-bottom: 100px;
+	margin-left: 70px;
+}
+.blure
+{
+
+	position: absolute;
+	top: 0.5%;
+	left: 27.5%;
+	width: 101%;
+	filter: blur(5px);
+	z-index: 1;
+}
